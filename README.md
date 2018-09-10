@@ -1,2 +1,36 @@
 # Java-Uber-Eats
-A project made for school using java that mimics a uber eats, allows restaurants and menus to be created from a file that is read. The user orders food and then is given to a driver that is stored inside of a ordered BST. 
+A project made for school using java that mimics a uber eats, allows restaurants and menus to be created from a file that is read. The user orders food and then is given to a driver that is stored inside of a ordered BST. Below are the instructions for editing the resturant settings in the assigment 4 folder.
+
+IF YOU WANT TO TEST WRITING YOUR OWN RESTURANTS AND FOODS IN BE CAREFUL
+
+LINE 1 HAS TO BE THE AMOUNT OF RESTURANTS IT SHOULD BE SET TO 3
+
+THEN FOR EACH RESTURANT START WITH THE NAME, THEN THE AMOUNT OF ITEMS, THEN THE DISTANCE AND THEN THE EXPENSIVE LEVEL FROM 1 TO 3
+
+FOR FOOD START WITH THE TYPE OF FOOD(1=COLDFOOD,2=HOTFOOD,3=SPEICAL FOOD) AND THEN PLACE EVERYTHING IN THIS ORDER
+
+--------
+COLD FOOD: CALORIES NAME TEMPERAUTRE_SERVED PRICE HOW_FAST_IT_COOLS_IN_D/S MAXIMUM SERVING TEMPERATURE THEN FOUR BOOLEANS DOESNT MATTER WHAT THEY ARE
+
+HOT FOOD: CALORIES NAME TEMP_SERVERD PRICE COOL_RATE_IN_D/S  AND MINIMUM SERVING TEMPERATURE THEN FOUR BOOLEANS DOESNT MATTER WHAT THEY ARE
+
+SPEICAL: CALORIES NAME SERVING TEMP PRICE 0 0 ALLERGERYFREE(BOOL) GLUTEN_FREE(BOOL) VEGAN(BOOL) VEGATARIAN(BOOL)
+--------
+REMEBER TO ALWAYS HAVE THE AMOUNT OF RESTURANTS CORRECT AND THE AMOUNT OF ITEMS CORRECT OR IT WILL NOT WORK THE PROGRAM WILL ERROR SAYING IT CANT READ FROM FILE CORRECTLY
+
+HERE IS A COPY IF SOMETHING DOES HAPPEN TO THE RESTURANTS.TXT
+
+3
+McDoanld 3 0.5 1 
+1 100 IceCream 30 1.00 1 50 true true true true 
+2 100 Burger 90 3.00 2 60 true true true true
+2 0 BoneLessBurger 0 5.00 0 0 true true true true
+BurgerKing 3 1 1
+2 200 QuarterPounder 90 5.00 2 60 true true true true
+2 1000 KingBurgerBoy 110 20 2 60 true true true true
+1 0 Ice 32 1 1 40 true true true true
+PanaraBread 3 1.5 2
+3 150 Salad 60 8.50 0 0 true false false true
+3 250 ChickenSald 60 10 0 0 true false false true
+3 90 SlightlyWarmDamagedEgg 78 15 0 0 false true false true
+
