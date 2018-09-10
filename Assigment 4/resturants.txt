@@ -1,0 +1,13 @@
+3
+McDoanld 3 0.5 1 
+1 100 IceCream 30 1.00 1 50 true true true true 
+2 100 Burger 90 3.00 2 60 true true true true
+2 0 BoneLessBurger 0 5.00 0 0 true true true true
+BurgerKing 3 1 1
+2 200 QuarterPounder 90 5.00 2 60 true true true true
+2 1000 KingBurgerBoy 110 20 2 60 true true true true
+1 0 Ice 32 1 1 40 true true true true
+PanaraBread 3 1.5 2
+3 150 Salad 60 8.50 0 0 true false false true
+3 250 ChickenSald 60 10 0 0 true false false true
+3 90 SlightlyWarmDamagedEgg 78 15 0 0 false true false true
